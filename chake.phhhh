@@ -1,0 +1,12 @@
+<?php
+include('dbcon.php');
+
+     //$database 
+
+$reference = $database->getReference('contacts');
+echo $reference->getValue();
+?>
+
+
+
+<h1>happy</h1>
